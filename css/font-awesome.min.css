@@ -1,0 +1,18 @@
+@font-face{
+	font-family:FontAwesome;
+	src:url(../fonts/fontawesome-webfont3e6e.eot);
+	src:url(../fonts/fontawesome-webfontd41d.eot#iefix&v=4.7.0) format('embedded-opentype'),url(../fonts/fontawesome-webfont3e6e.woff2) format('woff2'),url(../fonts/fontawesome-webfont3e6e.woff) format('woff'),url(../fonts/fontawesome-webfont3e6e.ttf) format('truetype'),url(../images/fontawesome-webfont3e6e.svg#fontawesomeregular) format('svg');
+	font-weight:400;
+	font-style:normal
+}
+.fa{
+	display:inline-block;
+	font:normal normal normal 14px/1 FontAwesome;
+	font-size:inherit;
+	text-rendering:auto;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale
+}
+.fa-check:before{
+	content:"\f00c"
+}
